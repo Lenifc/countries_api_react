@@ -1,0 +1,144 @@
+:root{
+--DarkBlue: hsl(209, 23%, 22%);
+--VeryDarkBlueBackground: hsl(207, 26%, 17%);
+--VeryDarkBlueText: hsl(200, 15%, 8%);
+--DarkGray: hsl(0, 0%, 52%);
+--VeryLightGray: hsl(0, 0%, 98%);
+}
+
+body{
+    background-color: var(--VeryDarkBlueBackground);
+    font-family: 'Nunito Sans', sans-serif;
+    color: var(--VeryLightGray);
+    font-size: 14px;
+}
+
+.container{
+    width: min(96%, 1300px);
+    margin: 0 auto;
+    position: relative;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .title{
+    margin: 32px 0;
+  }
+  
+  button{
+    cursor: pointer;
+  }
+
+.showFilteredCountries{
+    margin-top: 32px
+}
+
+.loader{
+    margin: 32px auto;
+    display: flex;
+    justify-content: center;
+ }
+
+.showFilteredCountries.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.home{
+    padding: 48px 0;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.showFilteredCountries.row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.search-bar{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.search-icon{
+    position: absolute;
+    width:30px;
+    left: 8px;
+    display: flex;
+}
+
+input{
+    padding: 16px 48px;
+    border-radius: 8px;
+    border: 1px solid var(--DarkGray);
+    background-color: var(--DarkBlue);
+    color: white;
+    width: min(300px, 100%);
+}
+
+input::placeholder{
+    color: var(--VeryLightGrayBG);
+}
+
+
+.regionFilter,
+.regionFilter:only-child{
+    background-color: var(--DarkBlue)!important;
+    color: var(--VeryLightGrayBG);
+    padding: 18px;
+    border-radius: 8px;
+    border: 1px solid var(--DarkGray);
+}
+.showFilteredCountries{
+    margin-top: 32px
+}
+
+.card{
+    width: min(300px, 90%);
+    background-color: var(--DarkBlue);
+    margin-right: 10px;
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card-img {
+    height: 200px;
+    overflow: hidden;
+}
+
+.card-text{
+    padding: 0 20px;
+}
+
+.country-name{
+  margin-top:12px
+}
+
+.card-text span{
+    font-weight: 800;
+}
+
+.region{
+    padding: 8px 0;
+}
+
+@media(max-width:678px){
+    .showFilteredCountries.row{
+        justify-content: center;
+    }
+}

@@ -1,0 +1,128 @@
+.region{
+    padding: 8px 0;
+}
+
+.country-name{
+    padding: 16px 0;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.container{
+    width: min(96%, 1300px);
+    margin: 0 auto;
+    position: relative;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullCard{
+    background-color: var(--VeryDarkBlueBG) ;
+    padding: 64px 0;
+}
+
+.detailed-card-img img{
+    width: 550px;
+    height: 360px;
+}
+
+.border-btn{
+    background-color: var(--DarkBlueElement);
+    border:none;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 2px var(--VeryDarkBlueText);
+    color: var(--VeryLightGrayBG);
+    padding: 8px 16px;
+    margin: 6px;
+}
+
+.detailed-card-text{
+    font-size: 1rem;
+    padding-left: 64px;
+}
+
+.detailed-card-text span{
+    font-weight: 600;
+}
+
+.detailed-card-text div{
+   line-height: 2;
+}
+
+.detailed-country-name{
+    font-weight: 800;
+    font-size: 1.85rem;
+    padding: 24px 0;
+}
+
+.borders{
+    padding-top: 64px;
+}
+
+.error{
+   padding: 32px;
+}
+
+.details-row{
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.details-row1{
+   margin-right: 48px;
+}
+
+.btn-container{
+   max-width: 100px;
+}
+
+@media(max-width: 1000px){
+   .detailed-card-img img{
+    width: 400px;
+    height: 270px;
+    transform: translateY(20%);
+}
+}
+@media(max-width:777px){
+   .detailedCard.row{
+   flex-direction: column;
+   align-items: center;
+}
+.detailed-card-img img{
+   transform: translateY(0%);
+   width: 100%;
+   height: auto;
+}
+.detailed-card-text{
+   padding-left: 12px;
+}
+.detailed-country-name{
+   text-align: center;
+}
+}
+
+.back-btn{
+    background-color: var(--DarkBlueElement);
+    border:none;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 0 10px 2px var(--VeryDarkBlueText);
+    color: var(--VeryLightGrayBG);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px 12px 50px;
+    margin-bottom: 48px;
+    background-position-x: 12px;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+.back-btn img{
+   position: absolute;
+   left: 10px;
+   }
