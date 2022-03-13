@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/countries_api_react/static/css/main.0b754e92.chunk.css",
+    "main.js": "/countries_api_react/static/js/main.48832b24.chunk.js",
+    "main.js.map": "/countries_api_react/static/js/main.48832b24.chunk.js.map",
+    "runtime-main.js": "/countries_api_react/static/js/runtime-main.919adb85.js",
+    "runtime-main.js.map": "/countries_api_react/static/js/runtime-main.919adb85.js.map",
+    "static/js/2.f18f7670.chunk.js": "/countries_api_react/static/js/2.f18f7670.chunk.js",
+    "static/js/2.f18f7670.chunk.js.map": "/countries_api_react/static/js/2.f18f7670.chunk.js.map",
+    "index.html": "/countries_api_react/index.html",
+    "static/css/main.0b754e92.chunk.css.map": "/countries_api_react/static/css/main.0b754e92.chunk.css.map",
+    "static/js/2.f18f7670.chunk.js.LICENSE.txt": "/countries_api_react/static/js/2.f18f7670.chunk.js.LICENSE.txt",
+    "static/media/left-arrow.cb0898b1.svg": "/countries_api_react/static/media/left-arrow.cb0898b1.svg",
+    "static/media/search.7579a26a.svg": "/countries_api_react/static/media/search.7579a26a.svg",
+    "static/media/spinner.11d9cde8.gif": "/countries_api_react/static/media/spinner.11d9cde8.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.919adb85.js",
+    "static/js/2.f18f7670.chunk.js",
+    "static/css/main.0b754e92.chunk.css",
+    "static/js/main.48832b24.chunk.js"
+  ]
+}
