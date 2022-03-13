@@ -1,3 +1,6 @@
+# Live demo: https://lenifc.github.io/countries_api_react
+Vue2 version: https://lenifc.github.io/countriesAPI/ | https://github.com/Lenifc/countriesAPI 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
